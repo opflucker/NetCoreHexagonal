@@ -2,7 +2,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using NetCoreHexagonal.Application.Ports.In;
 using NetCoreHexagonal.Application.Ports.In.Dtos;
-using NetCoreHexagonal.Application.Ports.Out;
+using NetCoreHexagonal.Application.Ports.Out.Persistence;
 using NetCoreHexagonal.Application.Services;
 using NetCoreHexagonal.Domain.Core.Students;
 using NetCoreHexagonal.EventsDispatching;

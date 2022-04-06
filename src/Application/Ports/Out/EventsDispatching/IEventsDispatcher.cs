@@ -1,6 +1,6 @@
 ﻿using NetCoreHexagonal.Domain.Commons;
 
-namespace NetCoreHexagonal.Application.Ports.Out
+namespace NetCoreHexagonal.Application.Ports.Out.EventsDispatching
 {
     public interface IEventsDispatcher
     {

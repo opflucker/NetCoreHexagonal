@@ -1,4 +1,4 @@
-﻿using NetCoreHexagonal.Application.Ports.Out;
+﻿using NetCoreHexagonal.Application.Ports.Out.EventsDispatching;
 using NetCoreHexagonal.Domain.Commons;
 
 namespace NetCoreHexagonal.EventsDispatching

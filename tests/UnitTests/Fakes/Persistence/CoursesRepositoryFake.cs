@@ -1,11 +1,11 @@
-﻿using NetCoreHexagonal.Application.Ports.Out;
+﻿using NetCoreHexagonal.Application.Ports.Out.Persistence;
 using NetCoreHexagonal.Domain.Core.Courses;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace NetCoreHexagonal.UnitTests.Fakes
+namespace NetCoreHexagonal.UnitTests.Fakes.Persistence
 {
     internal class CoursesRepositoryFake : ICoursesRepository
     {

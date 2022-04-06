@@ -1,9 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using NetCoreHexagonal.Application.Ports.Out;
+using NetCoreHexagonal.Application.Ports.Out.Persistence;
 using NetCoreHexagonal.Domain.Core.Students;
 using NetCoreHexagonal.Persistence.Design;
 
-namespace NetCoreHexagonal.Persistence
+namespace NetCoreHexagonal.Persistence.Services
 {
     internal sealed class StudentsRepository : IStudentsRepository
     {

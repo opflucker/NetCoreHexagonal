@@ -1,6 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using NetCoreHexagonal.Application.Ports.Out;
+using NetCoreHexagonal.Application.Ports.Out.Persistence;
 using NetCoreHexagonal.Persistence.Design;
+using NetCoreHexagonal.Persistence.Services;
 
 namespace NetCoreHexagonal.Persistence
 {

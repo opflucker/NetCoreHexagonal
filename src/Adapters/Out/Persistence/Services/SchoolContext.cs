@@ -1,8 +1,8 @@
-﻿using NetCoreHexagonal.Application.Ports.Out;
+﻿using NetCoreHexagonal.Application.Ports.Out.Persistence;
 using NetCoreHexagonal.Domain.Commons;
 using NetCoreHexagonal.Persistence.Design;
 
-namespace NetCoreHexagonal.Persistence
+namespace NetCoreHexagonal.Persistence.Services
 {
     internal sealed class SchoolContext : ISchoolContext
     {

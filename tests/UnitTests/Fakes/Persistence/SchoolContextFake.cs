@@ -1,10 +1,10 @@
-﻿using NetCoreHexagonal.Application.Ports.Out;
+﻿using NetCoreHexagonal.Application.Ports.Out.Persistence;
 using NetCoreHexagonal.Domain.Commons;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace NetCoreHexagonal.UnitTests.Fakes
+namespace NetCoreHexagonal.UnitTests.Fakes.Persistence
 {
     internal sealed class SchoolContextFake : ISchoolContext
     {

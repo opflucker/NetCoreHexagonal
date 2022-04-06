@@ -1,8 +1,8 @@
-﻿using NetCoreHexagonal.Application.Ports.Out;
+﻿using NetCoreHexagonal.Application.Ports.Out.EventsDispatching;
 using NetCoreHexagonal.Domain.Commons;
 using System.Threading.Tasks;
 
-namespace NetCoreHexagonal.UnitTests.Fakes
+namespace NetCoreHexagonal.UnitTests.Fakes.EventsDispatching
 {
     internal class EventsDispatcherFake : IEventsDispatcher
     {

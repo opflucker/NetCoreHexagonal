@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using NetCoreHexagonal.Application.Ports.Out;
+using NetCoreHexagonal.Application.Ports.Out.Persistence;
 using NetCoreHexagonal.Domain.Core.Courses;
 
-namespace NetCoreHexagonal.Persistence
+namespace NetCoreHexagonal.Persistence.Services
 {
     internal sealed class CoursesRepository : ICoursesRepository
     {

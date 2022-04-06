@@ -1,4 +1,4 @@
-﻿using NetCoreHexagonal.Application.Ports.Out;
+﻿using NetCoreHexagonal.Application.Ports.Out.Persistence;
 using NetCoreHexagonal.Domain.Core.Courses;
 using NetCoreHexagonal.Domain.Core.Students;
 

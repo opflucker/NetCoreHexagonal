@@ -1,5 +1,5 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using NetCoreHexagonal.Application.Ports.Out;
+using NetCoreHexagonal.Application.Ports.Out.EventsDispatching;
 
 namespace NetCoreHexagonal.EventsDispatching
 {

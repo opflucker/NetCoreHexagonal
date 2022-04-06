@@ -1,6 +1,6 @@
 ﻿using NetCoreHexagonal.Domain.Core.Courses;
 
-namespace NetCoreHexagonal.Application.Ports.Out
+namespace NetCoreHexagonal.Application.Ports.Out.Persistence
 {
     public interface ICoursesRepository
     {
