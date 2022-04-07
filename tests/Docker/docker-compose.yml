@@ -14,7 +14,7 @@ services:
     container_name: "api_${BuildId}"
     build:
       context: .
-      dockerfile: src/Adapters/In/Presentation.WebApi/Dockerfile
+      dockerfile: tests/Docker/dockerfile-webapi
       args:
         BuildConfiguration: ${BuildConfiguration}
     environment:
@@ -28,7 +28,7 @@ services:
     container_name: "tests_${BuildId}"
     build:
       context: .
-      dockerfile: tests/IntegrationTests/Dockerfile
+      dockerfile: tests/Docker/dockerfile-integrationtests
       args:
         BuildConfiguration: ${BuildConfiguration}
     environment:
