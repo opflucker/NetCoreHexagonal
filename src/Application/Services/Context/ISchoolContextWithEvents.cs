@@ -2,7 +2,7 @@
 
 namespace NetCoreHexagonal.Application.Services.Context
 {
-    public interface ISchoolContextWithEvents
+    internal interface ISchoolContextWithEvents
     {
         ISchoolContext School { get; }
 

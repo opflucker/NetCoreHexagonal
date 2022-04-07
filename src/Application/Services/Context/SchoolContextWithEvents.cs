@@ -3,7 +3,7 @@ using NetCoreHexagonal.Application.Ports.Out.Persistence;
 
 namespace NetCoreHexagonal.Application.Services.Context
 {
-    public sealed class SchoolContextWithEvents : ISchoolContextWithEvents
+    internal sealed class SchoolContextWithEvents : ISchoolContextWithEvents
     {
         private readonly ISchoolContext schoolContext;
         private readonly IEventsDispatcher eventsDispatcher;
