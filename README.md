@@ -7,7 +7,7 @@ Hexagonal architecture helps to visualize the solution global workflow because i
 ![image](https://user-images.githubusercontent.com/63680171/162287171-07330a99-15bc-4a36-86ee-b5e0c834b93e.png)
 
 The solution has:
-1. Two in-adapters corresponding to executable assemblies. These adapters interact with the application (NetCoreHexagonal.Application) using its input ports.
+1. Two in-adapters corresponding to executable assemblies. These adapters interact with the application (NetCoreHexagonal.Application) using its in-ports.
 2. One in-port: ISchoolService.
 3. One in-port implementation: SchoolService. This implementation needs to interact with external services that fullfill out-ports.
 4. Two out-ports defined with interfaces in folders EventsDispatching and Persistence.
