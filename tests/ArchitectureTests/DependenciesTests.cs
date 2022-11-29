@@ -40,14 +40,19 @@ namespace NetCoreHexagonal.ArchitectureUnitTests
 
         private static IEnumerable<object[]> GetValidDependencies()
         {
+            // Domain must not have dependencies
             yield return new[] { domainAssembly, (object)Array.Empty<Assembly>() };
 
+            // Application can only depend on domain 
             yield return new[] { applicationAssembly, (object)new object[] { domainAssembly } };
 
+            // Output adapters can only depend on application and domain
             var coreAssemblies = new object[] { domainAssembly, applicationAssembly };
             foreach (var outAdapter in GetOutAdapters())
                 yield return new[] { outAdapter, (object)coreAssemblies };
 
+            // Input adapters can only depend on application and domain
+            // but because inputs in this solution include startup code, they can also depend on output adapters
             var coreAndOutAdaptersAssemblies = coreAssemblies.Union(GetOutAdapters()).ToArray();
             foreach (var inAdapter in GetInAdapters())
             {
